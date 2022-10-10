@@ -30,6 +30,7 @@
  */
 
 #include "stdint.h"
+#include "stdio.h"
 #include "at24cx_i2c.h"
 
 void device_register(at24cx_dev_t *dev, uint16_t _dev_chip, uint8_t _i2c_addres){
