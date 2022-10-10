@@ -32,13 +32,17 @@
 #include "at24cx_i2c.h" 
 #include "at24cx_i2c_hal.h" 
 
+#include "stdio.h"
+
 at24cx_err_t at24cx_i2c_byte_write(at24cx_dev_t dev, at24cx_writedata_t dt)
 {
     at24cx_err_t err;
     uint8_t data[3];
-    data[0] = dt.data; 
-    data[1] = dt.address >> 8;
-    data[2] = dt.address & 0xFF;
+    data[0] = dt.address >> 8; 
+    data[1] = dt.address & 0xFF;
+    data[2] = dt.data;
+    //printf("DEBUG: Write data[1]", data[1]);
+    //printf("DEBUG: Write data[2]", data[2]);
     err = at24cx_i2c_hal_write(dev.i2c_addres, data, sizeof(data));
     
     return err;
@@ -52,6 +56,17 @@ at24cx_err_t at24cx_i2c_byte_read(at24cx_dev_t dev, at24cx_writedata_t *dt)
     reg[0] = dt->address >> 8;
     reg[1] = dt->address & 0xFF;
     err = at24cx_i2c_hal_read(dev.i2c_addres, reg, sizeof(reg), &data, 1);
+    dt->data = data;
+
+    return err;
+}
+
+at24cx_err_t at24cx_i2c_current_address_read(at24cx_dev_t dev, at24cx_writedata_t *dt)
+{
+    at24cx_err_t err;
+    uint8_t data;
+    err = at24cx_i2c_hal_read(dev.i2c_addres, 0, 0, &data, 1);
+    dt->data = data;
 
     return err;
 }

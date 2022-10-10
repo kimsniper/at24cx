@@ -57,7 +57,7 @@ at24cx_err_t at24cx_i2c_hal_read(uint8_t address, uint8_t *reg, uint16_t reg_cou
 {
     int err = AT24CX_OK;
 
-    if(i2c_write_blocking(i2c_default, address, reg, reg_count, true) != reg_count) err += AT24CX_ERR;
+    if (reg_count) if(i2c_write_blocking(i2c_default, address, reg, reg_count, true) != reg_count) err += AT24CX_ERR;
     if(i2c_read_blocking(i2c_default, address, data, data_count, false) != data_count) err += AT24CX_ERR;
 
     return err == AT24CX_OK ? AT24CX_OK :  AT24CX_ERR;
