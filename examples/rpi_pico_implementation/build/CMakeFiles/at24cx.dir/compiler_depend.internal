@@ -1571,31 +1571,6 @@ CMakeFiles/at24cx.dir/at24cx_i2c.c.obj
  C:/VSARM/armcc/10 2021.10/arm-none-eabi/include/_newlib_version.h
  C:/VSARM/armcc/10 2021.10/arm-none-eabi/include/sys/_intsup.h
  C:/VSARM/armcc/10 2021.10/arm-none-eabi/include/sys/_stdint.h
- C:/VSARM/armcc/10 2021.10/arm-none-eabi/include/stdio.h
- C:/VSARM/armcc/10 2021.10/arm-none-eabi/include/_ansi.h
- C:/VSARM/armcc/10 2021.10/arm-none-eabi/include/newlib.h
- C:/VSARM/armcc/10 2021.10/arm-none-eabi/include/sys/config.h
- C:/VSARM/armcc/10 2021.10/arm-none-eabi/include/machine/ieeefp.h
- C:/VSARM/armcc/10 2021.10/arm-none-eabi/include/sys/cdefs.h
- C:/VSARM/armcc/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h
- C:/VSARM/armcc/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h
- C:/VSARM/armcc/10 2021.10/arm-none-eabi/include/sys/reent.h
- C:/VSARM/armcc/10 2021.10/arm-none-eabi/include/_ansi.h
- C:/VSARM/armcc/10 2021.10/arm-none-eabi/include/sys/_types.h
- C:/VSARM/armcc/10 2021.10/arm-none-eabi/include/machine/_types.h
- C:/VSARM/armcc/10 2021.10/arm-none-eabi/include/sys/lock.h
- C:/VSARM/armcc/10 2021.10/arm-none-eabi/include/sys/types.h
- C:/VSARM/armcc/10 2021.10/arm-none-eabi/include/machine/endian.h
- C:/VSARM/armcc/10 2021.10/arm-none-eabi/include/machine/_endian.h
- C:/VSARM/armcc/10 2021.10/arm-none-eabi/include/sys/select.h
- C:/VSARM/armcc/10 2021.10/arm-none-eabi/include/sys/_sigset.h
- C:/VSARM/armcc/10 2021.10/arm-none-eabi/include/sys/_timeval.h
- C:/VSARM/armcc/10 2021.10/arm-none-eabi/include/sys/timespec.h
- C:/VSARM/armcc/10 2021.10/arm-none-eabi/include/sys/_timespec.h
- C:/VSARM/armcc/10 2021.10/arm-none-eabi/include/sys/_pthreadtypes.h
- C:/VSARM/armcc/10 2021.10/arm-none-eabi/include/sys/sched.h
- C:/VSARM/armcc/10 2021.10/arm-none-eabi/include/machine/types.h
- C:/VSARM/armcc/10 2021.10/arm-none-eabi/include/sys/stdio.h
 
 CMakeFiles/at24cx.dir/at24cx_i2c_hal.c.obj
  C:/Espressif/frameworks/esp-idf-v4.4.2/esp/AT24CX/examples/rpi_pico_implementation/at24cx_i2c_hal.c

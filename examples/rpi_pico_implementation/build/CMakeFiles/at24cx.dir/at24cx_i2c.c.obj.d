@@ -8,29 +8,4 @@ CMakeFiles/at24cx.dir/at24cx_i2c.c.obj: \
  c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\sys\features.h \
  c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\_newlib_version.h \
  c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\sys\_intsup.h \
- c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\sys\_stdint.h \
- c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\stdio.h \
- c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\_ansi.h \
- c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\newlib.h \
- c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\sys\config.h \
- c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\machine\ieeefp.h \
- c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\sys\cdefs.h \
- c:\vsarm\armcc\102021~1.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h \
- c:\vsarm\armcc\102021~1.10\lib\gcc\arm-none-eabi\10.3.1\include\stdarg.h \
- c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\sys\reent.h \
- c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\_ansi.h \
- c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\sys\_types.h \
- c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\machine\_types.h \
- c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\sys\lock.h \
- c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\sys\types.h \
- c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\machine\endian.h \
- c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\machine\_endian.h \
- c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\sys\select.h \
- c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\sys\_sigset.h \
- c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\sys\_timeval.h \
- c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\sys\timespec.h \
- c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\sys\_timespec.h \
- c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\sys\_pthreadtypes.h \
- c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\sys\sched.h \
- c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\machine\types.h \
- c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\sys\stdio.h
+ c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\sys\_stdint.h

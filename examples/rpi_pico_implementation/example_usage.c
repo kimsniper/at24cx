@@ -38,9 +38,9 @@ int main() {
             .address = i,
             .data = i
         };
+        
         if (at24cx_i2c_byte_write(eeprom_1, dt) == AT24CX_OK) printf("Writing at address 0x%02X: %d\n", dt.address, dt.data);
         else printf("Device write error!\n");
-        at24cx_i2c_hal_ms_delay(5); // Self-time write cycle
     }
     
     printf("\nRead byte demo: Obtain values from addresses 0x00 to 0x09, values should be from 0 to 9 respectively\n\n");
@@ -51,7 +51,6 @@ int main() {
         };
         if (at24cx_i2c_byte_read(eeprom_1, &dt) == AT24CX_OK) printf("Reading at address 0x%02X: %d\n", dt.address, dt.data);
         else printf("Device read error!\n");
-        //at24cx_i2c_hal_ms_delay(5); // Self-time write cycle
     }
 
     printf("\nRead byte at current address demo: Obtain values from addresses\n");

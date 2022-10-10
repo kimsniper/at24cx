@@ -54,7 +54,13 @@ typedef struct{
  * @brief AT24CX device address.
  * @details AT24CX I2C slave address.
  */
-#define I2C_ADDRESS_AT24CX            0x50
+#define I2C_ADDRESS_AT24CX          0x50
+
+/**
+ * @brief AT24CX device write delay.
+ * @details AT24CX self-time write cycle.
+ */
+#define AT24CX_WRITE_CYCLE_DELAY    5
 
 /**
  * @brief Write word to device.
