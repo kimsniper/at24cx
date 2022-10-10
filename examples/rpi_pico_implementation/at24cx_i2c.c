@@ -55,7 +55,7 @@ at24cx_err_t at24cx_i2c_byte_read(at24cx_dev_t dev, at24cx_writedata_t *dt)
     reg[1] = dt->address & 0xFF;
     err = at24cx_i2c_hal_read(dev.i2c_addres, reg, sizeof(reg), &data, 1);
     dt->data = data;
-
+    
     return err;
 }
 
