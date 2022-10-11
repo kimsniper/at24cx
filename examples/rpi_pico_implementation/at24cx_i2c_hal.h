@@ -43,6 +43,7 @@ typedef enum{
     AT24CX_OK,
     AT24CX_NOT_DETECTED,
     AT24CX_INVALID_ADDRESS,
+    AT24CX_INVALID_PAGEWRITE_ADDRESS,
 } at24cx_err_t;
 
 /**

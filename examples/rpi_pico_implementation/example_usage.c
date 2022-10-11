@@ -52,7 +52,7 @@ int main() {
         else printf("Device read error!\n");
     }
 
-    printf("\nRead byte at current address demo: Obtain values from addresses\n");
+    printf("\nRead byte at current address demo:\n");
     printf("Overwrite address 0x04 with the same value to set the current address which will be 0x05\n\n");
     at24cx_writedata_t dt = {
             .address = 0x04,
@@ -64,4 +64,20 @@ int main() {
     printf("\nNow read current address which is 0x05, value should be 5\n");
     if (at24cx_i2c_current_address_read(eeprom_1, &dt) == AT24CX_OK) printf("Reading at current address: %d\n", dt.data);
     else printf("Device read error!\n");
+
+    printf("\nPage write demo: Write 128 bytes at once from 0x00 to 0x7f\n");
+    at24cx_writedata_t dt_multi;
+    dt_multi.address = 0x0;
+    for(int i=0;i<128;i++) dt_multi.data_multi[i] = i;
+    if(at24cx_i2c_page_write(eeprom_1, dt_multi) == AT24CX_OK) printf("Writing 128 bytes from 0x00 to 0x7F\n");
+    else printf("Device write error!\n");
+
+    for(int i=0;i<128;i++)
+    {
+        at24cx_writedata_t dt = {
+            .address = i,
+        };
+        if (at24cx_i2c_byte_read(eeprom_1, &dt) == AT24CX_OK) printf("Reading at address 0x%02X: %d\n", dt.address, dt.data);
+        else printf("Device read error!\n");
+    }
 }
