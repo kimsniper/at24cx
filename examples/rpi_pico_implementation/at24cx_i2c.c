@@ -99,7 +99,7 @@ at24cx_err_t at24cx_i2c_page_write(at24cx_dev_t dev, at24cx_writedata_t dt)
     err = at24cx_i2c_error_check(&dev, &dt);
     if (err != AT24CX_OK) return err; 
 
-    if((dev.byte_size - dt.address) < dev.page_write_size)
+    if(((dev.byte_size - dt.address) < dev.page_write_size) || (dt.address) % 128)
         return AT24CX_INVALID_PAGEWRITE_ADDRESS;
 
     err = at24cx_i2c_hal_write(dev.i2c_addres, data, dev.page_write_size + 2);

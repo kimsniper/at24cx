@@ -67,7 +67,7 @@ int main() {
 
     printf("\nPage write demo: Write 128 bytes at once from 0x00 to 0x7f\n");
     at24cx_writedata_t dt_multi;
-    dt_multi.address = 0x0;
+    dt_multi.address = 0;
     for(int i=0;i<128;i++) dt_multi.data_multi[i] = i;
     if(at24cx_i2c_page_write(eeprom_1, dt_multi) == AT24CX_OK) printf("Writing 128 bytes from 0x00 to 0x7F\n");
     else printf("Device write error!\n");
