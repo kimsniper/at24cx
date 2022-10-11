@@ -71,7 +71,7 @@ int main() {
     for(int i=0;i<128;i++) dt_multi.data_multi[i] = i;
     if(at24cx_i2c_page_write(eeprom_1, dt_multi) == AT24CX_OK) printf("Writing 128 bytes from 0x00 to 0x7F\n");
     else printf("Device write error!\n");
-
+    printf("\nRead 128 bytes from 0x00 to 0x7f\n");
     for(int i=0;i<128;i++)
     {
         at24cx_writedata_t dt = {

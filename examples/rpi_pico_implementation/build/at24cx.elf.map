@@ -919,9 +919,9 @@ Discarded input sections
                 0x00000000       0x48 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
  .data.i2c1_inst
                 0x00000000        0x8 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
- .text          0x00000000        0x0 C:\Users\MARKGE~1\AppData\Local\Temp\cccrZd2d.o
- .data          0x00000000        0x0 C:\Users\MARKGE~1\AppData\Local\Temp\cccrZd2d.o
- .bss           0x00000000        0x0 C:\Users\MARKGE~1\AppData\Local\Temp\cccrZd2d.o
+ .text          0x00000000        0x0 C:\Users\MARKGE~1\AppData\Local\Temp\ccudHqoy.o
+ .data          0x00000000        0x0 C:\Users\MARKGE~1\AppData\Local\Temp\ccudHqoy.o
+ .bss           0x00000000        0x0 C:\Users\MARKGE~1\AppData\Local\Temp\ccudHqoy.o
  .data          0x00000000        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-calloc.o)
@@ -1115,11 +1115,11 @@ LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\MARKGE~1\AppData\Local\Temp\cccrZd2d.o
+ .boot2         0x10000000      0x100 C:\Users\MARKGE~1\AppData\Local\Temp\ccudHqoy.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x10000100     0x48c8
+.text           0x10000100     0x48d0
                 0x10000100                __logical_binary_start = .
  *(.vectors)
  .vectors       0x10000100       0xd4 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1182,366 +1182,366 @@ LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .text*)
  .text          0x100002c4       0x48 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
  .text.startup.main
-                0x1000030c      0x240 CMakeFiles/at24cx.dir/example_usage.c.obj
+                0x1000030c      0x248 CMakeFiles/at24cx.dir/example_usage.c.obj
                 0x1000030c                main
  .text.at24cx_i2c_device_register
-                0x1000054c       0x74 CMakeFiles/at24cx.dir/at24cx_i2c.c.obj
-                0x1000054c                at24cx_i2c_device_register
+                0x10000554       0x74 CMakeFiles/at24cx.dir/at24cx_i2c.c.obj
+                0x10000554                at24cx_i2c_device_register
  .text.at24cx_i2c_byte_write
-                0x100005c0       0x48 CMakeFiles/at24cx.dir/at24cx_i2c.c.obj
-                0x100005c0                at24cx_i2c_byte_write
+                0x100005c8       0x48 CMakeFiles/at24cx.dir/at24cx_i2c.c.obj
+                0x100005c8                at24cx_i2c_byte_write
  .text.at24cx_i2c_page_write
-                0x10000608       0x6c CMakeFiles/at24cx.dir/at24cx_i2c.c.obj
-                0x10000608                at24cx_i2c_page_write
+                0x10000610       0x6c CMakeFiles/at24cx.dir/at24cx_i2c.c.obj
+                0x10000610                at24cx_i2c_page_write
  .text.at24cx_i2c_byte_read
-                0x10000674       0x4c CMakeFiles/at24cx.dir/at24cx_i2c.c.obj
-                0x10000674                at24cx_i2c_byte_read
+                0x1000067c       0x4c CMakeFiles/at24cx.dir/at24cx_i2c.c.obj
+                0x1000067c                at24cx_i2c_byte_read
  .text.at24cx_i2c_current_address_read
-                0x100006c0       0x24 CMakeFiles/at24cx.dir/at24cx_i2c.c.obj
-                0x100006c0                at24cx_i2c_current_address_read
+                0x100006c8       0x24 CMakeFiles/at24cx.dir/at24cx_i2c.c.obj
+                0x100006c8                at24cx_i2c_current_address_read
  .text.at24cx_i2c_hal_init
-                0x100006e4       0x3c CMakeFiles/at24cx.dir/at24cx_i2c_hal.c.obj
-                0x100006e4                at24cx_i2c_hal_init
+                0x100006ec       0x3c CMakeFiles/at24cx.dir/at24cx_i2c_hal.c.obj
+                0x100006ec                at24cx_i2c_hal_init
  .text.at24cx_i2c_hal_read
-                0x10000720       0x68 CMakeFiles/at24cx.dir/at24cx_i2c_hal.c.obj
-                0x10000720                at24cx_i2c_hal_read
+                0x10000728       0x68 CMakeFiles/at24cx.dir/at24cx_i2c_hal.c.obj
+                0x10000728                at24cx_i2c_hal_read
  .text.at24cx_i2c_hal_write
-                0x10000788       0x28 CMakeFiles/at24cx.dir/at24cx_i2c_hal.c.obj
-                0x10000788                at24cx_i2c_hal_write
+                0x10000790       0x28 CMakeFiles/at24cx.dir/at24cx_i2c_hal.c.obj
+                0x10000790                at24cx_i2c_hal_write
  .text.at24cx_i2c_hal_test
-                0x100007b0       0x2c CMakeFiles/at24cx.dir/at24cx_i2c_hal.c.obj
-                0x100007b0                at24cx_i2c_hal_test
+                0x100007b8       0x2c CMakeFiles/at24cx.dir/at24cx_i2c_hal.c.obj
+                0x100007b8                at24cx_i2c_hal_test
  .text.at24cx_i2c_hal_ms_delay
-                0x100007dc        0x8 CMakeFiles/at24cx.dir/at24cx_i2c_hal.c.obj
-                0x100007dc                at24cx_i2c_hal_ms_delay
+                0x100007e4        0x8 CMakeFiles/at24cx.dir/at24cx_i2c_hal.c.obj
+                0x100007e4                at24cx_i2c_hal_ms_delay
  .text.gpio_set_function
-                0x100007e4       0x30 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x100007e4                gpio_set_function
+                0x100007ec       0x30 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x100007ec                gpio_set_function
  .text.gpio_set_pulls
-                0x10000814       0x30 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000814                gpio_set_pulls
+                0x1000081c       0x30 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x1000081c                gpio_set_pulls
  .text.hw_claim_or_assert
-                0x10000844       0x44 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x10000844                hw_claim_or_assert
+                0x1000084c       0x44 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x1000084c                hw_claim_or_assert
  .text.running_on_fpga
-                0x10000888       0x10 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x10000888                running_on_fpga
+                0x10000890       0x10 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x10000890                running_on_fpga
  .text.spin_locks_reset
-                0x10000898       0x1c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x10000898                spin_locks_reset
+                0x100008a0       0x1c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x100008a0                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x100008b4       0x18 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x100008b4                next_striped_spin_lock_num
+                0x100008bc       0x18 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x100008bc                next_striped_spin_lock_num
  .text.uart_init
-                0x100008cc       0xe0 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-                0x100008cc                uart_init
+                0x100008d4       0xe0 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x100008d4                uart_init
  .text.timer_pool_entry_comparator
-                0x100009ac       0x34 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x100009ac                timer_pool_entry_comparator
+                0x100009b4       0x34 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100009b4                timer_pool_entry_comparator
  .text.sleep_until_callback
-                0x100009e0       0x30 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100009e8       0x30 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.add_alarm_under_lock.isra.0
-                0x10000a10      0x100 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000a18      0x100 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x10000b10      0x1c8 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000b18      0x1c8 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_add_alarm_at.constprop.0
-                0x10000cd8      0x11c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000ce0      0x11c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x10000df4       0x64 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000df4                alarm_pool_init_default
+                0x10000dfc       0x64 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000dfc                alarm_pool_init_default
  .text.sleep_until
-                0x10000e58       0xac CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000e58                sleep_until
+                0x10000e60       0xac CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000e60                sleep_until
  .text.sleep_ms
-                0x10000f04       0x38 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000f04                sleep_ms
+                0x10000f0c       0x38 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000f0c                sleep_ms
  .text.hardware_alarm_irq_handler
-                0x10000f3c       0xb8 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10000f44       0xb8 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x10000ff4       0x18 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10000ff4                hardware_alarm_claim
+                0x10000ffc       0x18 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10000ffc                hardware_alarm_claim
  .text.time_us_64
-                0x1000100c       0x14 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x1000100c                time_us_64
+                0x10001014       0x14 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001014                time_us_64
  .text.busy_wait_until
-                0x10001020       0x20 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001020                busy_wait_until
+                0x10001028       0x20 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001028                busy_wait_until
  .text.hardware_alarm_set_callback
-                0x10001040       0x8c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001040                hardware_alarm_set_callback
+                0x10001048       0x8c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001048                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x100010cc       0xe0 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100010cc                hardware_alarm_set_target
+                0x100010d4       0xe0 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100010d4                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x100011ac       0x3c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100011ac                hardware_alarm_cancel
+                0x100011b4       0x3c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100011b4                hardware_alarm_cancel
  .text.lock_init
-                0x100011e8       0x10 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x100011e8                lock_init
+                0x100011f0       0x10 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x100011f0                lock_init
  .text.mutex_init
-                0x100011f8       0x1c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x100011f8                mutex_init
+                0x10001200       0x1c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x10001200                mutex_init
  .text.recursive_mutex_init
-                0x10001214       0x1c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x10001214                recursive_mutex_init
+                0x1000121c       0x1c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x1000121c                recursive_mutex_init
  .text.ph_merge_nodes
-                0x10001230       0x68 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001238       0x68 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_post_alloc_init
-                0x10001298       0x3c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001298                ph_post_alloc_init
+                0x100012a0       0x3c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100012a0                ph_post_alloc_init
  .text.ph_merge_two_pass
-                0x100012d4       0x90 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x100012d4                ph_merge_two_pass
+                0x100012dc       0x90 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100012dc                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x10001364       0xf8 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x1000136c       0xf8 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x1000145c       0xfc CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x1000145c                ph_remove_head
+                0x10001464       0xfc CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001464                ph_remove_head
  .text.ph_remove_and_free_node
-                0x10001558       0x7c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001558                ph_remove_and_free_node
+                0x10001560       0x7c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001560                ph_remove_and_free_node
  .text.runtime_init
-                0x100015d4       0xf0 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x100015d4                runtime_init
- .text.exit     0x100016c4        0x4 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x100016c4                exit
- .text.panic    0x100016c8       0x30 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x100016c8                panic
+                0x100015dc       0xf0 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x100015dc                runtime_init
+ .text.exit     0x100016cc        0x4 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x100016cc                exit
+ .text.panic    0x100016d0       0x30 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x100016d0                panic
  .text.hard_assertion_failure
-                0x100016f8        0xc CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x100016f8                hard_assertion_failure
+                0x10001700        0xc CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001700                hard_assertion_failure
  .text.clocks_init
-                0x10001704      0x2bc CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10001704                clocks_init
+                0x1000170c      0x2bc CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x1000170c                clocks_init
  .text.clock_get_hz
-                0x100019c0        0xc CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x100019c0                clock_get_hz
+                0x100019c8        0xc CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x100019c8                clock_get_hz
  .text.irq_set_enabled
-                0x100019cc       0x24 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100019cc                irq_set_enabled
+                0x100019d4       0x24 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100019d4                irq_set_enabled
  .text.irq_get_vtable_handler
-                0x100019f0       0x10 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100019f0                irq_get_vtable_handler
+                0x100019f8       0x10 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100019f8                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x10001a00       0x54 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10001a00                irq_set_exclusive_handler
+                0x10001a08       0x54 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10001a08                irq_set_exclusive_handler
  .text.irq_remove_handler
-                0x10001a54      0x1b4 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10001a54                irq_remove_handler
+                0x10001a5c      0x1b4 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10001a5c                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x10001c08       0xb4 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10001c08                irq_add_tail_to_free_list
+                0x10001c10       0xb4 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10001c10                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x10001cbc       0x24 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10001cbc                irq_init_priorities
+                0x10001cc4       0x24 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10001cc4                irq_init_priorities
  .text.pll_init
-                0x10001ce0       0xa8 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x10001ce0                pll_init
+                0x10001ce8       0xa8 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x10001ce8                pll_init
  .text.watchdog_start_tick
-                0x10001d88       0x10 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x10001d88                watchdog_start_tick
+                0x10001d90       0x10 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x10001d90                watchdog_start_tick
  .text.xosc_init
-                0x10001d98       0x28 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x10001d98                xosc_init
+                0x10001da0       0x28 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x10001da0                xosc_init
  .text._out_null
-                0x10001dc0        0x4 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10001dc8        0x4 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_rev
-                0x10001dc4       0x9c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10001dcc       0x9c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_format
-                0x10001e60      0x1cc CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10001e68      0x1cc CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_char
-                0x1000202c       0x10 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002034       0x10 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_fct
-                0x1000203c       0x10 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._etoa    0x1000204c      0x44c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._ftoa    0x10002498      0x398 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002044       0x10 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._etoa    0x10002054      0x44c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._ftoa    0x100024a0      0x398 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._vsnprintf
-                0x10002830      0xb04 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002838      0xb04 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.vfctprintf
-                0x10003334       0x20 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x10003334                vfctprintf
+                0x1000333c       0x20 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x1000333c                vfctprintf
  .text.weak_raw_vprintf
-                0x10003354       0x30 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x10003354                weak_raw_vprintf
- .text          0x10003384       0x10 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x1000335c       0x30 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x1000335c                weak_raw_vprintf
+ .text          0x1000338c       0x10 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x10003394       0x10 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10003394                rom_func_lookup
+                0x1000339c       0x10 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x1000339c                rom_func_lookup
  .text.rom_data_lookup
-                0x100033a4       0x10 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x100033a4                rom_data_lookup
+                0x100033ac       0x10 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x100033ac                rom_data_lookup
  .text.rom_funcs_lookup
-                0x100033b4       0x44 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x100033b4                rom_funcs_lookup
+                0x100033bc       0x44 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x100033bc                rom_funcs_lookup
  .text.__wrap___aeabi_idiv
-                0x100033f8       0x50 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x100033f8                __wrap___aeabi_idivmod
-                0x100033f8                divmod_s32s32
-                0x100033f8                div_s32s32
-                0x100033f8                __wrap___aeabi_idiv
-                0x10003400                divmod_s32s32_unsafe
-                0x1000342c                divmod_s32s32_savestate
+                0x10003400       0x50 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x10003400                __wrap___aeabi_idivmod
+                0x10003400                divmod_s32s32
+                0x10003400                div_s32s32
+                0x10003400                __wrap___aeabi_idiv
+                0x10003408                divmod_s32s32_unsafe
+                0x10003434                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x10003448       0x4c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x10003448                __wrap___aeabi_uidiv
-                0x10003448                __wrap___aeabi_uidivmod
-                0x10003448                div_u32u32
-                0x10003448                divmod_u32u32
-                0x10003450                divmod_u32u32_unsafe
-                0x10003478                divmod_u32u32_savestate
+                0x10003450       0x4c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x10003450                __wrap___aeabi_uidiv
+                0x10003450                __wrap___aeabi_uidivmod
+                0x10003450                div_u32u32
+                0x10003450                divmod_u32u32
+                0x10003458                divmod_u32u32_unsafe
+                0x10003480                divmod_u32u32_savestate
  .text.__wrap___aeabi_ldiv
-                0x10003494      0x434 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x10003494                div_s64s64
-                0x10003494                divmod_s64s64
-                0x10003494                __wrap___aeabi_ldivmod
-                0x100034cc                divmod_u64u64
-                0x100034cc                div_u64u64
-                0x100034cc                __wrap___aeabi_uldivmod
-                0x100034dc                divmod_u64u64_savestate
-                0x10003504                divmod_s64s64_unsafe
-                0x1000358c                divmod_u64u64_unsafe
+                0x1000349c      0x434 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x1000349c                div_s64s64
+                0x1000349c                divmod_s64s64
+                0x1000349c                __wrap___aeabi_ldivmod
+                0x100034d4                divmod_u64u64
+                0x100034d4                div_u64u64
+                0x100034d4                __wrap___aeabi_uldivmod
+                0x100034e4                divmod_u64u64_savestate
+                0x1000350c                divmod_s64s64_unsafe
+                0x10003594                divmod_u64u64_unsafe
  .text.__wrap___aeabi_darithmetic
-                0x100038c8       0x80 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x100038c8                __wrap___aeabi_drsub
-                0x100038ce                __wrap___aeabi_dsub
-                0x100038e0                __wrap___aeabi_dadd
-                0x100038f2                __wrap___aeabi_ddiv
-                0x1000392e                __wrap___aeabi_dmul
+                0x100038d0       0x80 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x100038d0                __wrap___aeabi_drsub
+                0x100038d6                __wrap___aeabi_dsub
+                0x100038e8                __wrap___aeabi_dadd
+                0x100038fa                __wrap___aeabi_ddiv
+                0x10003936                __wrap___aeabi_dmul
  .text.__wrap___aeabi_cdcmple
-                0x10003948       0x6c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003948                __wrap___aeabi_cdrcmple
-                0x10003958                __wrap___aeabi_cdcmpeq
-                0x10003958                __wrap___aeabi_cdcmple
+                0x10003950       0x6c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003950                __wrap___aeabi_cdrcmple
+                0x10003960                __wrap___aeabi_cdcmpeq
+                0x10003960                __wrap___aeabi_cdcmple
  .text.__wrap___aeabi_dcmplt
-                0x100039b4        0xc CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x100039b4                __wrap___aeabi_dcmplt
+                0x100039bc        0xc CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x100039bc                __wrap___aeabi_dcmplt
  .text.__wrap___aeabi_dcmple
-                0x100039c0       0x10 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x100039c0                __wrap___aeabi_dcmple
+                0x100039c8       0x10 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x100039c8                __wrap___aeabi_dcmple
  .text.__wrap___aeabi_dcmpge
-                0x100039d0       0x10 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x100039d0                __wrap___aeabi_dcmpge
+                0x100039d8       0x10 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x100039d8                __wrap___aeabi_dcmpge
  .text.__wrap___aeabi_dcmpgt
-                0x100039e0        0xa CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x100039e0                __wrap___aeabi_dcmpgt
+                0x100039e8        0xa CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x100039e8                __wrap___aeabi_dcmpgt
  .text.__wrap___aeabi_dcmpun
-                0x100039ea       0x1c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x100039ea                __wrap___aeabi_dcmpun
- *fill*         0x10003a06        0x2 
+                0x100039f2       0x1c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x100039f2                __wrap___aeabi_dcmpun
+ *fill*         0x10003a0e        0x2 
  .text.__wrap___aeabi_i2d
-                0x10003a08       0x38 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003a08                __wrap___aeabi_ui2d
-                0x10003a10                __wrap___aeabi_i2d
+                0x10003a10       0x38 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003a10                __wrap___aeabi_ui2d
+                0x10003a18                __wrap___aeabi_i2d
  .text.__wrap___aeabi_d2iz
-                0x10003a40       0x48 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003a40                double2int_z
-                0x10003a40                __wrap___aeabi_d2iz
+                0x10003a48       0x48 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003a48                double2int_z
+                0x10003a48                __wrap___aeabi_d2iz
  .text.__wrap___aeabi_d2uiz
-                0x10003a88       0x18 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003a88                __wrap___aeabi_d2uiz
-                0x10003a88                double2uint
+                0x10003a90       0x18 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003a90                __wrap___aeabi_d2uiz
+                0x10003a90                double2uint
  .text.__aeabi_double_init
-                0x10003aa0       0x94 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x10003aa0                __aeabi_double_init
+                0x10003aa8       0x94 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x10003aa8                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x10003b34       0x2c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003b34                double_table_shim_on_use_helper
+                0x10003b3c       0x2c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003b3c                double_table_shim_on_use_helper
  .text.__wrap___aeabi_dsub
-                0x10003b60       0x10 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003b60                drsub_shim
-                0x10003b66                dsub_shim
+                0x10003b68       0x10 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003b68                drsub_shim
+                0x10003b6e                dsub_shim
  .text.dadd_shim
-                0x10003b70      0x15c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003b70                dadd_shim
+                0x10003b78      0x15c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003b78                dadd_shim
  .text.dmul_shim
-                0x10003ccc      0x15c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003ccc                dmul_shim
+                0x10003cd4      0x15c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003cd4                dmul_shim
  .text.ddiv_shim
-                0x10003e28      0x1b0 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003e28                ddiv_shim
+                0x10003e30      0x1b0 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003e30                ddiv_shim
  .text.double2uint_shim
-                0x10003fd8        0xe CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003fd8                double2uint_shim
-                0x10003fda                double2ufix_shim
- *fill*         0x10003fe6        0x2 
+                0x10003fe0        0xe CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003fe0                double2uint_shim
+                0x10003fe2                double2ufix_shim
+ *fill*         0x10003fee        0x2 
  .text.double2uint64_shim
-                0x10003fe8       0x70 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003fe8                double2uint64_shim
-                0x10003fea                double2ufix64_shim
-                0x1000400a                d2fix_a
+                0x10003ff0       0x70 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003ff0                double2uint64_shim
+                0x10003ff2                double2ufix64_shim
+                0x10004012                d2fix_a
  .text.dunpacks
-                0x10004058       0x3c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10004058                dunpacks
+                0x10004060       0x3c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10004060                dunpacks
  .text.__aeabi_lmul
-                0x10004094       0x32 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x10004094                __wrap___aeabi_lmul
- *fill*         0x100040c6        0x2 
+                0x1000409c       0x32 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x1000409c                __wrap___aeabi_lmul
+ *fill*         0x100040ce        0x2 
  .text.__aeabi_float_init
-                0x100040c8       0x64 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x100040c8                __aeabi_float_init
+                0x100040d0       0x64 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x100040d0                __aeabi_float_init
  .text.float_table_shim_on_use_helper
-                0x1000412c       0x2c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x1000412c                float_table_shim_on_use_helper
- .text          0x10004158       0x10 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10004158                __aeabi_mem_init
- .text.memset   0x10004168        0xc CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10004168                __wrap_memset
- .text.memcpy   0x10004174        0xc CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10004174                __wrap_memcpy
-                0x10004174                __wrap___aeabi_memcpy
+                0x10004134       0x2c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x10004134                float_table_shim_on_use_helper
+ .text          0x10004160       0x10 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10004160                __aeabi_mem_init
+ .text.memset   0x10004170        0xc CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10004170                __wrap_memset
+ .text.memcpy   0x1000417c        0xc CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x1000417c                __wrap_memcpy
+                0x1000417c                __wrap___aeabi_memcpy
  .text.stdio_out_chars_no_crlf
-                0x10004180       0x10 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004188       0x10 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_out_chars_crlf
-                0x10004190       0xb4 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004198       0xb4 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_buffered_printer
-                0x10004244       0x64 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x1000424c       0x64 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_put_string.isra.0
-                0x100042a8       0xfc CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100042b0       0xfc CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_putchar
-                0x100043a4       0xa0 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100043a4                __wrap_putchar
+                0x100043ac       0xa0 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100043ac                __wrap_putchar
  .text.__wrap_puts
-                0x10004444       0x3c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004444                __wrap_puts
+                0x1000444c       0x3c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x1000444c                __wrap_puts
  .text.stdio_set_driver_enabled
-                0x10004480       0x3c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004480                stdio_set_driver_enabled
+                0x10004488       0x3c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004488                stdio_set_driver_enabled
  .text.__wrap_vprintf
-                0x100044bc       0xd8 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100044bc                __wrap_vprintf
+                0x100044c4       0xd8 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100044c4                __wrap_vprintf
  .text.__wrap_printf
-                0x10004594       0x18 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004594                __wrap_printf
+                0x1000459c       0x18 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x1000459c                __wrap_printf
  .text.stdio_init_all
-                0x100045ac        0x8 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100045ac                stdio_init_all
+                0x100045b4        0x8 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100045b4                stdio_init_all
  .text.stdio_uart_out_chars
-                0x100045b4       0x4c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x100045bc       0x4c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_in_chars
-                0x10004600       0x38 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x10004600                stdio_uart_in_chars
+                0x10004608       0x38 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10004608                stdio_uart_in_chars
  .text.stdio_uart_init
-                0x10004638       0x48 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x10004638                stdio_uart_init
+                0x10004640       0x48 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10004640                stdio_uart_init
  .text.i2c_set_baudrate
-                0x10004680       0xc4 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x10004680                i2c_set_baudrate
+                0x10004688       0xc4 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x10004688                i2c_set_baudrate
  .text.i2c_init
-                0x10004744       0x54 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x10004744                i2c_init
+                0x1000474c       0x54 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x1000474c                i2c_init
  .text.i2c_write_blocking
-                0x10004798       0xd0 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x10004798                i2c_write_blocking
+                0x100047a0       0xd0 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x100047a0                i2c_write_blocking
  .text.i2c_read_blocking
-                0x10004868       0xac CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x10004868                i2c_read_blocking
- .text.strlen   0x10004914       0x5c c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-strlen-stub.o)
-                0x10004914                strlen
+                0x10004870       0xac CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x10004870                i2c_read_blocking
+ .text.strlen   0x1000491c       0x5c c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-strlen-stub.o)
+                0x1000491c                strlen
  *(.fini)
- .fini          0x10004970        0x4 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
-                0x10004970                _fini
- *fill*         0x10004974        0x4 
- .fini.__stub   0x10004978       0x50 linker stubs
+ .fini          0x10004978        0x4 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+                0x10004978                _fini
+ *fill*         0x1000497c        0x4 
+ .fini.__stub   0x10004980       0x50 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -1553,110 +1553,110 @@ LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x100049c8        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x100049c8                . = ALIGN (0x4)
+ .eh_frame      0x100049d0        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x100049d0                . = ALIGN (0x4)
 
-.glue_7         0x100049c8        0x0
- .glue_7        0x100049c8        0x0 linker stubs
+.glue_7         0x100049d0        0x0
+ .glue_7        0x100049d0        0x0 linker stubs
 
-.glue_7t        0x100049c8        0x0
- .glue_7t       0x100049c8        0x0 linker stubs
+.glue_7t        0x100049d0        0x0
+ .glue_7t       0x100049d0        0x0 linker stubs
 
-.vfp11_veneer   0x100049c8        0x0
- .vfp11_veneer  0x100049c8        0x0 linker stubs
+.vfp11_veneer   0x100049d0        0x0
+ .vfp11_veneer  0x100049d0        0x0 linker stubs
 
-.v4_bx          0x100049c8        0x0
- .v4_bx         0x100049c8        0x0 linker stubs
+.v4_bx          0x100049d0        0x0
+ .v4_bx         0x100049d0        0x0 linker stubs
 
-.iplt           0x100049c8        0x0
- .iplt          0x100049c8        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x100049d0        0x0
+ .iplt          0x100049d0        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x100049c8      0x63c
+.rodata         0x100049d0      0x65c
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.main.str1.4
-                0x100049c8      0x2a4 CMakeFiles/at24cx.dir/example_usage.c.obj
-                                0x2b0 (size before relaxing)
+                0x100049d0      0x2c6 CMakeFiles/at24cx.dir/example_usage.c.obj
+                                0x2d2 (size before relaxing)
+ *fill*         0x10004c96        0x2 
  .rodata.at24cx_i2c_device_register.str1.4
-                0x10004c6c       0x5d CMakeFiles/at24cx.dir/at24cx_i2c.c.obj
- *fill*         0x10004cc9        0x3 
+                0x10004c98       0x5d CMakeFiles/at24cx.dir/at24cx_i2c.c.obj
+ *fill*         0x10004cf5        0x3 
  .rodata.__bi_53.0
-                0x10004ccc        0x8 CMakeFiles/at24cx.dir/at24cx_i2c_hal.c.obj
+                0x10004cf8        0x8 CMakeFiles/at24cx.dir/at24cx_i2c_hal.c.obj
  .rodata.hardware_alarm_claim.str1.4
-                0x10004cd4       0x22 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x10004cf6        0x2 
+                0x10004d00       0x22 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x10004d22        0x2 
  .rodata.panic.str1.4
-                0x10004cf8       0x10 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10004d24       0x10 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                                  0x12 (size before relaxing)
  .rodata.hard_assertion_failure.str1.4
-                0x10004d08        0xc CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10004d34        0xc CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata._ftoa.str1.4
-                0x10004d14       0x15 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x10004d29        0x3 
+                0x10004d40       0x15 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x10004d55        0x3 
  .rodata._vsnprintf
-                0x10004d2c      0x1e0 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x10004f0c        0x4 
+                0x10004d58      0x1e0 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.pow10.0
-                0x10004f10       0x50 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10004f38       0x50 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.str1.4
-                0x10004f60       0x3c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10004f88       0x3c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x10004f9c        0xc CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10004fc4        0xc CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x10004fa8        0xc CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10004fd0        0xc CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x10004fb4        0xc CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10004fdc        0xc CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.crlf_str.0
-                0x10004fc0        0x2 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x10004fc2        0x2 
+                0x10004fe8        0x2 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x10004fea        0x2 
  .rodata.str1.4
-                0x10004fc4       0x2c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10004fec       0x2c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_28.4
-                0x10004ff0        0xc CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10005018        0xc CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_29.5
-                0x10004ffc        0x8 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x10005004                . = ALIGN (0x4)
+                0x10005024        0x8 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x1000502c                . = ALIGN (0x4)
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x10005004                . = ALIGN (0x4)
+                0x1000502c                . = ALIGN (0x4)
 
-.rel.dyn        0x10005004        0x0
- .rel.iplt      0x10005004        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+.rel.dyn        0x1000502c        0x0
+ .rel.iplt      0x1000502c        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x10005004                __exidx_start = .
+                0x1000502c                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x10005004                __exidx_end = .
-                0x10005004                . = ALIGN (0x4)
-                0x10005004                __binary_info_start = .
+                0x1000502c                __exidx_end = .
+                0x1000502c                . = ALIGN (0x4)
+                0x1000502c                __binary_info_start = .
 
-.binary_info    0x10005004       0x28
+.binary_info    0x1000502c       0x28
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr53
-                0x10005004        0x4 CMakeFiles/at24cx.dir/at24cx_i2c_hal.c.obj
+                0x1000502c        0x4 CMakeFiles/at24cx.dir/at24cx_i2c_hal.c.obj
  .binary_info.keep.__bi_ptr22
-                0x10005008        0x4 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10005030        0x4 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr30
-                0x1000500c        0x4 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10005034        0x4 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr38
-                0x10005010        0x4 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10005038        0x4 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr44
-                0x10005014        0x4 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x1000503c        0x4 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr50
-                0x10005018        0x4 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10005040        0x4 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr75
-                0x1000501c        0x4 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10005044        0x4 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr81
-                0x10005020        0x4 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10005048        0x4 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
  .binary_info.__bi_ptr28
-                0x10005024        0x4 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x1000504c        0x4 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .binary_info.__bi_ptr29
-                0x10005028        0x4 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x1000502c                __binary_info_end = .
-                0x1000502c                . = ALIGN (0x4)
-                0x1000502c                __etext = .
+                0x10005050        0x4 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10005054                __binary_info_end = .
+                0x10005054                . = ALIGN (0x4)
+                0x10005054                __etext = .
 
 .ram_vector_table
                 0x20000000       0xc0
@@ -1665,7 +1665,7 @@ LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../
                 0x20000000       0xc0 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x20000000                ram_vector_table
 
-.data           0x200000c0      0x188 load address 0x1000502c
+.data           0x200000c0      0x188 load address 0x10005054
                 0x200000c0                __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -1748,27 +1748,27 @@ LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../
                 0x20000248                . = ALIGN (0x4)
                 0x20000248                __data_end__ = .
 
-.igot.plt       0x20000248        0x0 load address 0x100051b4
+.igot.plt       0x20000248        0x0 load address 0x100051dc
  .igot.plt      0x20000248        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x20000248        0x0 load address 0x100051b4
+                0x20000248        0x0 load address 0x100051dc
                 0x20000248                . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x20040000        0x0 load address 0x100051b4
+.scratch_x      0x20040000        0x0 load address 0x100051dc
                 0x20040000                __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x20040000                . = ALIGN (0x4)
                 0x20040000                __scratch_x_end__ = .
-                0x100051b4                __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x100051dc                __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x20041000        0x0 load address 0x100051b4
+.scratch_y      0x20041000        0x0 load address 0x100051dc
                 0x20041000                __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x20041000                . = ALIGN (0x4)
                 0x20041000                __scratch_y_end__ = .
-                0x100051b4                __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x100051dc                __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .bss            0x20000248      0x3e4
                 0x20000248                . = ALIGN (0x4)
@@ -1832,8 +1832,8 @@ LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../
  *(.stack*)
  .stack         0x20041000      0x800 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x100051b4        0x0
-                0x100051b4                __flash_binary_end = .
+.flash_end      0x100051dc        0x0
+                0x100051dc                __flash_binary_end = .
                 0x20040000                __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x20041000                __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x20042000                __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -1891,7 +1891,7 @@ LOAD CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standa
 LOAD CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 LOAD CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 LOAD CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-LOAD C:\Users\MARKGE~1\AppData\Local\Temp\cccrZd2d.o
+LOAD C:\Users\MARKGE~1\AppData\Local\Temp\ccudHqoy.o
 LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -1989,7 +1989,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000616       0x2c CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
  .ARM.attributes
-                0x00000642       0x22 C:\Users\MARKGE~1\AppData\Local\Temp\cccrZd2d.o
+                0x00000642       0x22 C:\Users\MARKGE~1\AppData\Local\Temp\ccudHqoy.o
  .ARM.attributes
                 0x00000664       0x1e c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes

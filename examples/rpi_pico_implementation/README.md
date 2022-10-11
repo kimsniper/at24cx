@@ -32,8 +32,6 @@ cmake -G "MinGW Makefiles" ..
 make
 
 ## Example Output
-
-```bash
 Initializing AT24CX. . .
 Device registered. Status: Active, Chip: AT24C512, Address: 0x50, Size: 65535
 
@@ -75,6 +73,8 @@ Reading at current address: 5
 
 Page write demo: Write 128 bytes at once from 0x00 to 0x7f
 Writing 128 bytes from 0x00 to 0x7F
+
+Read 128 bytes from 0x00 to 0x7f
 Reading at address 0x00: 0
 Reading at address 0x01: 1
 Reading at address 0x02: 2
@@ -203,5 +203,4 @@ Reading at address 0x7C: 124
 Reading at address 0x7D: 125
 Reading at address 0x7E: 126
 Reading at address 0x7F: 127
-
 ```
