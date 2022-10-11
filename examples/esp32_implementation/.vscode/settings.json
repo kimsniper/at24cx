@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "at24cx_i2c.h": "c",
+        "at24cx_i2c_hal.h": "c"
+    }
+}

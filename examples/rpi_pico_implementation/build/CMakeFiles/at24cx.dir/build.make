@@ -82,24 +82,10 @@ CMakeFiles/at24cx.dir/example_usage.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/at24cx.dir/example_usage.c.s"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\example_usage.c -o CMakeFiles\at24cx.dir\example_usage.c.s
 
-CMakeFiles/at24cx.dir/dev_reg.c.obj: CMakeFiles/at24cx.dir/flags.make
-CMakeFiles/at24cx.dir/dev_reg.c.obj: ../dev_reg.c
-CMakeFiles/at24cx.dir/dev_reg.c.obj: CMakeFiles/at24cx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/at24cx.dir/dev_reg.c.obj"
-	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/at24cx.dir/dev_reg.c.obj -MF CMakeFiles\at24cx.dir\dev_reg.c.obj.d -o CMakeFiles\at24cx.dir\dev_reg.c.obj -c C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\dev_reg.c
-
-CMakeFiles/at24cx.dir/dev_reg.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/at24cx.dir/dev_reg.c.i"
-	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\dev_reg.c > CMakeFiles\at24cx.dir\dev_reg.c.i
-
-CMakeFiles/at24cx.dir/dev_reg.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/at24cx.dir/dev_reg.c.s"
-	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\dev_reg.c -o CMakeFiles\at24cx.dir\dev_reg.c.s
-
 CMakeFiles/at24cx.dir/at24cx_i2c.c.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/at24cx_i2c.c.obj: ../at24cx_i2c.c
 CMakeFiles/at24cx.dir/at24cx_i2c.c.obj: CMakeFiles/at24cx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/at24cx.dir/at24cx_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/at24cx.dir/at24cx_i2c.c.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/at24cx.dir/at24cx_i2c.c.obj -MF CMakeFiles\at24cx.dir\at24cx_i2c.c.obj.d -o CMakeFiles\at24cx.dir\at24cx_i2c.c.obj -c C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\at24cx_i2c.c
 
 CMakeFiles/at24cx.dir/at24cx_i2c.c.i: cmake_force
@@ -113,7 +99,7 @@ CMakeFiles/at24cx.dir/at24cx_i2c.c.s: cmake_force
 CMakeFiles/at24cx.dir/at24cx_i2c_hal.c.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/at24cx_i2c_hal.c.obj: ../at24cx_i2c_hal.c
 CMakeFiles/at24cx.dir/at24cx_i2c_hal.c.obj: CMakeFiles/at24cx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/at24cx.dir/at24cx_i2c_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/at24cx.dir/at24cx_i2c_hal.c.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/at24cx.dir/at24cx_i2c_hal.c.obj -MF CMakeFiles\at24cx.dir\at24cx_i2c_hal.c.obj.d -o CMakeFiles\at24cx.dir\at24cx_i2c_hal.c.obj -c C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\at24cx_i2c_hal.c
 
 CMakeFiles/at24cx.dir/at24cx_i2c_hal.c.i: cmake_force
@@ -127,7 +113,7 @@ CMakeFiles/at24cx.dir/at24cx_i2c_hal.c.s: cmake_force
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/at24cx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj.d -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
@@ -141,7 +127,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdl
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/at24cx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj.d -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
@@ -155,7 +141,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gp
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/at24cx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -MF CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj.d -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
@@ -169,7 +155,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/c
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/at24cx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -MF CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj.d -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_platform\platform.c
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
@@ -183,7 +169,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/pl
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/at24cx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj.d -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
@@ -197,7 +183,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sy
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/at24cx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj.d -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_uart\uart.c
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
@@ -210,7 +196,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_uart/ua
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building ASM object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building ASM object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj   -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_divider\divider.S
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
@@ -224,7 +210,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_divider
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/at24cx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\common\pico_time\time.c.obj.d -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\common\pico_time\time.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\common\pico_time\time.c
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
@@ -238,7 +224,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.s: 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/at24cx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\common\pico_time\timeout_helper.c.obj.d -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\common\pico_time\timeout_helper.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\common\pico_time\timeout_helper.c
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
@@ -252,7 +238,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/timeout_he
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/at24cx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj.d -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_timer\timer.c
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
@@ -266,7 +252,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/t
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/sem.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/sem.c
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/at24cx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\common\pico_sync\sem.c.obj.d -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\common\pico_sync\sem.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\common\pico_sync\sem.c
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
@@ -280,7 +266,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/sem.c.s: c
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/at24cx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\common\pico_sync\lock_core.c.obj.d -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\common\pico_sync\lock_core.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\common\pico_sync\lock_core.c
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
@@ -294,7 +280,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/at24cx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\common\pico_sync\mutex.c.obj.d -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\common\pico_sync\mutex.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\common\pico_sync\mutex.c
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
@@ -308,7 +294,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.s:
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/at24cx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\common\pico_sync\critical_section.c.obj.d -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\common\pico_sync\critical_section.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\common\pico_sync\critical_section.c
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
@@ -322,7 +308,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/critical_s
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/datetime.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/common/pico_util/datetime.c
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/at24cx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\common\pico_util\datetime.c.obj.d -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\common\pico_util\datetime.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\common\pico_util\datetime.c
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
@@ -336,7 +322,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/datetime.c
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/at24cx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\common\pico_util\pheap.c.obj.d -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\common\pico_util\pheap.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\common\pico_util\pheap.c
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
@@ -350,7 +336,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.s:
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.c
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/at24cx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.c.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\common\pico_util\queue.c.obj.d -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\common\pico_util\queue.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\common\pico_util\queue.c
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
@@ -364,7 +350,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.c.s:
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/at24cx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj.d -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
@@ -378,7 +364,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/run
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/at24cx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj.d -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -392,7 +378,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/at24cx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj.d -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -405,7 +391,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building ASM object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building ASM object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.obj   -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
@@ -419,7 +405,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/at24cx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj.d -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -433,7 +419,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/at24cx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj.d -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -447,7 +433,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_vreg/vr
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/at24cx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj.d -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -461,7 +447,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdo
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/at24cx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj.d -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -475,7 +461,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xo
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/at24cx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj.d -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_printf\printf.c
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
@@ -488,7 +474,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/prin
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.obj   -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
@@ -502,7 +488,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/at24cx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj.d -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
@@ -515,7 +501,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/boo
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building ASM object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building ASM object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_divider\divider.S.obj   -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_divider\divider.S
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i: cmake_force
@@ -528,7 +514,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/div
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building ASM object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj   -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
@@ -542,7 +528,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/doub
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/at24cx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -MF CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj.d -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
@@ -556,7 +542,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/doub
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/at24cx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_double\double_math.c.obj.d -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_double\double_math.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_double\double_math.c
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -569,7 +555,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/doub
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building ASM object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj   -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
@@ -582,7 +568,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/doub
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building ASM object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.obj   -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
@@ -595,7 +581,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/p
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj   -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
@@ -609,7 +595,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/at24cx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -MF CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj.d -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
@@ -623,7 +609,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/at24cx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_float\float_math.c.obj.d -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_float\float_math.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_float\float_math.c
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -636,7 +622,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj   -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
@@ -650,7 +636,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/at24cx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -MF CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj.d -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
@@ -663,7 +649,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_malloc/pico
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj   -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
@@ -676,7 +662,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building ASM object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj   -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
@@ -690,7 +676,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_li
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/at24cx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -MF CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj.d -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
@@ -704,7 +690,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_li
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/at24cx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -MF CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj.d -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
@@ -718,7 +704,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_li
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/at24cx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj.d -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -732,7 +718,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/at24cx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj.d -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
@@ -746,7 +732,7 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: CMakeFiles/at24cx.dir/flags.make
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: CMakeFiles/at24cx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -MF CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj.d -o CMakeFiles\at24cx.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c
 
 CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i: cmake_force
@@ -760,7 +746,6 @@ CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c
 # Object files for target at24cx
 at24cx_OBJECTS = \
 "CMakeFiles/at24cx.dir/example_usage.c.obj" \
-"CMakeFiles/at24cx.dir/dev_reg.c.obj" \
 "CMakeFiles/at24cx.dir/at24cx_i2c.c.obj" \
 "CMakeFiles/at24cx.dir/at24cx_i2c_hal.c.obj" \
 "CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
@@ -814,7 +799,6 @@ at24cx_OBJECTS = \
 at24cx_EXTERNAL_OBJECTS =
 
 at24cx.elf: CMakeFiles/at24cx.dir/example_usage.c.obj
-at24cx.elf: CMakeFiles/at24cx.dir/dev_reg.c.obj
 at24cx.elf: CMakeFiles/at24cx.dir/at24cx_i2c.c.obj
 at24cx.elf: CMakeFiles/at24cx.dir/at24cx_i2c_hal.c.obj
 at24cx.elf: CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -867,7 +851,7 @@ at24cx.elf: CMakeFiles/at24cx.dir/build.make
 at24cx.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 at24cx.elf: CMakeFiles/at24cx.dir/objects1.rsp
 at24cx.elf: CMakeFiles/at24cx.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Linking CXX executable at24cx.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Linking CXX executable at24cx.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\at24cx.dir\link.txt --verbose=$(VERBOSE)
 	"C:\VSARM\armcc\10 2021.10\bin\arm-none-eabi-objcopy.exe" -Oihex C:/Espressif/frameworks/esp-idf-v4.4.2/esp/AT24CX/examples/rpi_pico_implementation/build/at24cx.elf at24cx.hex
 	"C:\VSARM\armcc\10 2021.10\bin\arm-none-eabi-objcopy.exe" -Obinary C:/Espressif/frameworks/esp-idf-v4.4.2/esp/AT24CX/examples/rpi_pico_implementation/build/at24cx.elf at24cx.bin

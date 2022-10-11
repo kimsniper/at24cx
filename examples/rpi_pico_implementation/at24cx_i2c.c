@@ -32,6 +32,22 @@
 #include "at24cx_i2c.h" 
 #include "at24cx_i2c_hal.h" 
 
+#include "stdio.h"
+
+void at24cx_i2c_device_register(at24cx_dev_t *dev, uint16_t _dev_chip, uint8_t _i2c_addres){
+    dev->dev_chip = _dev_chip;
+    dev->byte_size = (128 * _dev_chip) - 1;
+    dev->i2c_addres = _i2c_addres;
+    dev->status = 0;
+    if (at24cx_i2c_hal_test(dev->i2c_addres) == AT24CX_OK){
+        dev->status = 1;
+    }
+    printf("Device registered. Status: %s, Chip: AT24C%d, Address: 0x%02X, Size: %d\n", dev->status ? "Active" : "Inactive",
+                                                           dev->dev_chip,
+                                                           dev->i2c_addres,
+                                                           dev->byte_size);
+}
+
 at24cx_err_t at24cx_i2c_byte_write(at24cx_dev_t dev, at24cx_writedata_t dt)
 {
     at24cx_err_t err;
@@ -39,6 +55,9 @@ at24cx_err_t at24cx_i2c_byte_write(at24cx_dev_t dev, at24cx_writedata_t dt)
     data[0] = dt.address >> 8; 
     data[1] = dt.address & 0xFF;
     data[2] = dt.data;
+
+    if(!dev.status) return AT24CX_NOT_DETECTED;
+    if(dt.address > dev.byte_size) return AT24CX_INVALID_ADDRESS;
 
     err = at24cx_i2c_hal_write(dev.i2c_addres, data, sizeof(data));
     at24cx_i2c_hal_ms_delay(AT24CX_WRITE_CYCLE_DELAY); 
@@ -53,6 +72,10 @@ at24cx_err_t at24cx_i2c_byte_read(at24cx_dev_t dev, at24cx_writedata_t *dt)
     uint8_t data;
     reg[0] = dt->address >> 8;
     reg[1] = dt->address & 0xFF;
+
+    if(!dev.status) return AT24CX_NOT_DETECTED;
+    if(dt->address > dev.byte_size) return AT24CX_INVALID_ADDRESS;
+
     err = at24cx_i2c_hal_read(dev.i2c_addres, reg, sizeof(reg), &data, 1);
     dt->data = data;
     

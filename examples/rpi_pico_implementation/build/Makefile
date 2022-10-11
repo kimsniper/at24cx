@@ -1156,30 +1156,6 @@ at24cx_i2c_hal.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\at24cx.dir\build.make CMakeFiles/at24cx.dir/at24cx_i2c_hal.c.s
 .PHONY : at24cx_i2c_hal.c.s
 
-dev_reg.obj: dev_reg.c.obj
-.PHONY : dev_reg.obj
-
-# target to build an object file
-dev_reg.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\at24cx.dir\build.make CMakeFiles/at24cx.dir/dev_reg.c.obj
-.PHONY : dev_reg.c.obj
-
-dev_reg.i: dev_reg.c.i
-.PHONY : dev_reg.i
-
-# target to preprocess a source file
-dev_reg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\at24cx.dir\build.make CMakeFiles/at24cx.dir/dev_reg.c.i
-.PHONY : dev_reg.c.i
-
-dev_reg.s: dev_reg.c.s
-.PHONY : dev_reg.s
-
-# target to generate assembly for a file
-dev_reg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\at24cx.dir\build.make CMakeFiles/at24cx.dir/dev_reg.c.s
-.PHONY : dev_reg.c.s
-
 example_usage.obj: example_usage.c.obj
 .PHONY : example_usage.obj
 
@@ -1339,9 +1315,6 @@ help:
 	@echo ... at24cx_i2c_hal.obj
 	@echo ... at24cx_i2c_hal.i
 	@echo ... at24cx_i2c_hal.s
-	@echo ... dev_reg.obj
-	@echo ... dev_reg.i
-	@echo ... dev_reg.s
 	@echo ... example_usage.obj
 	@echo ... example_usage.i
 	@echo ... example_usage.s

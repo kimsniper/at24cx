@@ -13,7 +13,6 @@
 //AT24CX components
 #include "at24cx_i2c.h"
 #include "at24cx_i2c_hal.h"
-#include "dev_reg.h"
 
 at24cx_dev_t eeprom_1;
 
@@ -26,7 +25,7 @@ int main() {
     printf("Initializing AT24CX. . .\n");
 
     //Register device
-    device_register(&eeprom_1, 512, I2C_ADDRESS_AT24CX);
+    at24cx_i2c_device_register(&eeprom_1, 512, I2C_ADDRESS_AT24CX);
     
     //Check if eeprom_1 is active
     printf("\neeprom_1 is %s\n", eeprom_1.status ? "detected" : "not detected");

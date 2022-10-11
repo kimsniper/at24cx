@@ -84,8 +84,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/at24cx.dir/at24cx_i2c.c.obj.d"
   "CMakeFiles/at24cx.dir/at24cx_i2c_hal.c.obj"
   "CMakeFiles/at24cx.dir/at24cx_i2c_hal.c.obj.d"
-  "CMakeFiles/at24cx.dir/dev_reg.c.obj"
-  "CMakeFiles/at24cx.dir/dev_reg.c.obj.d"
   "CMakeFiles/at24cx.dir/example_usage.c.obj"
   "CMakeFiles/at24cx.dir/example_usage.c.obj.d"
   "at24cx.elf"

@@ -29,8 +29,8 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-#ifndef EXAMPLES_RPI_PICO_IMPLEMENTATION_AT24CX_I2C_HAL
-#define EXAMPLES_RPI_PICO_IMPLEMENTATION_AT24CX_I2C_HAL
+#ifndef AT24CX_I2C_HAL
+#define AT24CX_I2C_HAL
 
 #ifdef __cplusplus
 extern "C" {
@@ -41,6 +41,8 @@ extern "C" {
 typedef enum{
     AT24CX_ERR = -1,
     AT24CX_OK,
+    AT24CX_NOT_DETECTED,
+    AT24CX_INVALID_ADDRESS,
 } at24cx_err_t;
 
 /**
@@ -77,4 +79,4 @@ void at24cx_i2c_hal_ms_delay(uint32_t ms);
 }
 #endif
 
-#endif /* EXAMPLES_RPI_PICO_IMPLEMENTATION_AT24CX_I2C_HAL */
+#endif /* AT24CX_I2C_HAL */

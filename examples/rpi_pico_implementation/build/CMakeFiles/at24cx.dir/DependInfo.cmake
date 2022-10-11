@@ -144,7 +144,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
   "C:/Espressif/frameworks/esp-idf-v4.4.2/esp/AT24CX/examples/rpi_pico_implementation/at24cx_i2c.c" "CMakeFiles/at24cx.dir/at24cx_i2c.c.obj" "gcc" "CMakeFiles/at24cx.dir/at24cx_i2c.c.obj.d"
   "C:/Espressif/frameworks/esp-idf-v4.4.2/esp/AT24CX/examples/rpi_pico_implementation/at24cx_i2c_hal.c" "CMakeFiles/at24cx.dir/at24cx_i2c_hal.c.obj" "gcc" "CMakeFiles/at24cx.dir/at24cx_i2c_hal.c.obj.d"
-  "C:/Espressif/frameworks/esp-idf-v4.4.2/esp/AT24CX/examples/rpi_pico_implementation/dev_reg.c" "CMakeFiles/at24cx.dir/dev_reg.c.obj" "gcc" "CMakeFiles/at24cx.dir/dev_reg.c.obj.d"
   "C:/Espressif/frameworks/esp-idf-v4.4.2/esp/AT24CX/examples/rpi_pico_implementation/example_usage.c" "CMakeFiles/at24cx.dir/example_usage.c.obj" "gcc" "CMakeFiles/at24cx.dir/example_usage.c.obj.d"
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "CMakeFiles/at24cx.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
   )

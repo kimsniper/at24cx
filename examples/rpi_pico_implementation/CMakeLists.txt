@@ -14,7 +14,6 @@ pico_sdk_init()
 
 add_executable(at24cx
         example_usage.c
-        dev_reg.c 
         at24cx_i2c.c
         at24cx_i2c_hal.c
         )

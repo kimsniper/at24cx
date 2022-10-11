@@ -77,5 +77,4 @@ CMakeFiles/at24cx.dir/example_usage.c.obj: \
  C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/i2c.h \
  C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/i2c.h \
  C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\at24cx_i2c.h \
- C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\at24cx_i2c_hal.h \
- C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\dev_reg.h
+ C:\Espressif\frameworks\esp-idf-v4.4.2\esp\AT24CX\examples\rpi_pico_implementation\at24cx_i2c_hal.h
