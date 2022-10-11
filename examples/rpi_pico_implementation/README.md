@@ -34,5 +34,43 @@ make
 ## Example Output
 
 ```bash
+Initializing AT24CX. . .
+Device registered. Status: Active, Chip: AT24C512, Address: 0x50, Size: 65535
+
+eeprom_1 is detected
+
+Write byte demo: This will write value 0 at address 0x00, 1 at address 0x01 and so on
+
+Writing at address 0x00: 0
+Writing at address 0x01: 1
+Writing at address 0x02: 2
+Writing at address 0x03: 3
+Writing at address 0x04: 4
+Writing at address 0x05: 5
+Writing at address 0x06: 6
+Writing at address 0x07: 7
+Writing at address 0x08: 8
+Writing at address 0x09: 9
+
+Read byte demo: Obtain values from addresses 0x00 to 0x09, values should be from 0 to 9 respectively
+
+Reading at address 0x00: 0
+Reading at address 0x01: 1
+Reading at address 0x02: 2
+Reading at address 0x03: 3
+Reading at address 0x04: 4
+Reading at address 0x05: 5
+Reading at address 0x06: 6
+Reading at address 0x07: 7
+Reading at address 0x08: 8
+Reading at address 0x09: 9
+
+Read byte at current address demo: Obtain values from addresses
+Overwrite address 0x04 with the same value to set the current address which will be 0x05
+
+Writing at address 0x04: 4
+
+Now read current address which is 0x05, value should be 5
+Reading at current address: 5
 
 ```
