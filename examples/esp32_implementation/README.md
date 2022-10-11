@@ -5,7 +5,7 @@ ESP-IDF template used for this project: https://github.com/espressif/esp-idf/tre
 
 ## Overview
 
-This example demonstrates usage of AT24CX for reading the clock/calendar.
+This example demonstrates usage of AT24C512 eeprom for reading/writing..
 
 ### Hardware Required
 
