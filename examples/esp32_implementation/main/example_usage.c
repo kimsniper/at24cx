@@ -36,7 +36,7 @@ void app_main(void)
         else ESP_LOGE(TAG, "Device write error!");
     }
     
-    ESP_LOGI(TAG, "Read byte demo: Obtain values from addresses 0x00 to 0x09, values should be from 0 to 9 respectively");
+    ESP_LOGI(TAG, "Read byte demo: Obtain values from addresses 0x00 to 0x09, values should be from 0 tRV5C387Ao 9 respectively");
     for(int i=0;i<10;i++)
     {
         at24cx_writedata_t dt = {
@@ -58,4 +58,20 @@ void app_main(void)
     ESP_LOGI(TAG, "Now read current address which is 0x05, value should be 5");
     if (at24cx_i2c_current_address_read(eeprom_1, &dt) == AT24CX_OK) ESP_LOGI(TAG, "Reading at current address: %d", dt.data);
     else ESP_LOGE(TAG, "Device read error!");
+
+    ESP_LOGI(TAG, "Page write demo: Write 128 bytes at once from 0x00 to 0x7f");
+    at24cx_writedata_t dt_multi;
+    dt_multi.address = 0;
+    for(int i=0;i<128;i++) dt_multi.data_multi[i] = i;
+    if(at24cx_i2c_page_write(eeprom_1, dt_multi) == AT24CX_OK) ESP_LOGI(TAG, "Writing 128 bytes from 0x00 to 0x7F");
+    else ESP_LOGE(TAG, "Device write error!");
+    ESP_LOGI(TAG, "Read 128 bytes from 0x00 to 0x7f");
+    for(int i=0;i<128;i++)
+    {
+        at24cx_writedata_t dt = {
+            .address = i,
+        };
+        if (at24cx_i2c_byte_read(eeprom_1, &dt) == AT24CX_OK) ESP_LOGI(TAG, "Reading at address 0x%02X: %d", dt.address, dt.data);
+        else ESP_LOGE(TAG, "Device read error!");
+    }
 }
