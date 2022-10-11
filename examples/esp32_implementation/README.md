@@ -37,5 +37,34 @@ See the [Getting Started Guide](https://docs.espressif.com/projects/esp-idf/en/l
 ## Example Output
 
 ```bash
-
+I (327) example_usage: Initializing AT24CX. . .
+Device registered. Status: Active, Chip: AT24C512, Address: 0x50, Size: 65535
+I (337) example_usage: eeprom_1 is detected
+I (347) example_usage: Write byte demo: This will write value 0 at address 0x00, 1 at address 0x01 and so on
+I (357) example_usage: Writing at address 0x00: 0
+I (357) example_usage: Writing at address 0x01: 1
+I (367) example_usage: Writing at address 0x02: 2
+I (367) example_usage: Writing at address 0x03: 3
+I (377) example_usage: Writing at address 0x04: 4
+I (377) example_usage: Writing at address 0x05: 5
+I (387) example_usage: Writing at address 0x06: 6
+I (397) example_usage: Writing at address 0x07: 7
+I (397) example_usage: Writing at address 0x08: 8
+I (407) example_usage: Writing at address 0x09: 9
+I (407) example_usage: Read byte demo: Obtain values from addresses 0x00 to 0x09, values should be from 0 to 9 respectively
+I (417) example_usage: Reading at address 0x00: 0
+I (427) example_usage: Reading at address 0x01: 1
+I (427) example_usage: Reading at address 0x02: 2
+I (437) example_usage: Reading at address 0x03: 3
+I (447) example_usage: Reading at address 0x04: 4
+I (447) example_usage: Reading at address 0x05: 5
+I (457) example_usage: Reading at address 0x06: 6
+I (457) example_usage: Reading at address 0x07: 7
+I (467) example_usage: Reading at address 0x08: 8
+I (467) example_usage: Reading at address 0x09: 9
+I (477) example_usage: Read byte at current address demo: Obtain values from addresses
+I (487) example_usage: Overwrite address 0x04 with the same value to set the current address which will be 0x05
+I (497) example_usage: Writing at address 0x04: 4
+I (497) example_usage: Now read current address which is 0x05, value should be 5
+I (507) example_usage: Reading at current address: 5
 ```
