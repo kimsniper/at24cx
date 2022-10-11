@@ -32,6 +32,8 @@ cmake -G "MinGW Makefiles" ..
 make
 
 ## Example Output
+
+```bash
 Initializing AT24CX. . .
 Device registered. Status: Active, Chip: AT24C512, Address: 0x50, Size: 65535
 
