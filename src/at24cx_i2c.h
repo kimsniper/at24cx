@@ -40,12 +40,14 @@ extern "C" {
 
 typedef struct{
     uint8_t data;
+    uint8_t data_multi[128];
     uint16_t address;
 } at24cx_writedata_t;
 
 typedef struct{
     uint8_t status : 1;
-    uint16_t byte_size;
+    uint32_t byte_size;
+    uint16_t page_write_size;
     uint8_t i2c_addres;
     uint16_t dev_chip;
 } at24cx_dev_t;
@@ -73,6 +75,12 @@ void at24cx_i2c_device_register(at24cx_dev_t *dev, uint16_t _dev_chip, uint8_t _
  * @details Read word to AT24CX.
 */
 at24cx_err_t at24cx_i2c_byte_write(at24cx_dev_t dev, at24cx_writedata_t dt);
+
+/**
+ * @brief Write multi word to device.
+ * @details Write 128 bytes to AT24CX.
+*/
+at24cx_err_t at24cx_i2c_page_write(at24cx_dev_t dev, at24cx_writedata_t dt);
 
 /**
  * @brief Read word from device.
