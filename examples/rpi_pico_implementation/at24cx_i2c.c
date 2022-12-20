@@ -81,7 +81,7 @@ at24cx_err_t at24cx_i2c_byte_write(at24cx_dev_t dev, at24cx_writedata_t dt)
     err = at24cx_i2c_error_check(&dev, &dt);
     if (err != AT24CX_OK) return err;
 
-    err = at24cx_i2c_hal_write(dev.i2c_addres, data, sizeof(data));
+    err = at24cx_i2c_hal_write(dev.i2c_addres, data, 3);
     at24cx_i2c_hal_ms_delay(AT24CX_WRITE_CYCLE_DELAY); 
     
     return err;
@@ -119,7 +119,7 @@ at24cx_err_t at24cx_i2c_byte_read(at24cx_dev_t dev, at24cx_writedata_t *dt)
     err = at24cx_i2c_error_check(&dev, dt);
     if (err != AT24CX_OK) return err;
 
-    err = at24cx_i2c_hal_read(dev.i2c_addres, reg, sizeof(reg), &data, 1);
+    err = at24cx_i2c_hal_read(dev.i2c_addres, reg, 2, &data, 1);
     dt->data = data;
     
     return err;
