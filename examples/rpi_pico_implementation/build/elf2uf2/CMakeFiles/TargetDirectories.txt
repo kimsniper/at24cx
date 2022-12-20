@@ -1,5 +1,0 @@
-C:/Espressif/frameworks/esp-idf-v4.4.2/esp/AT24CX/examples/rpi_pico_implementation/build/elf2uf2/CMakeFiles/elf2uf2.dir
-C:/Espressif/frameworks/esp-idf-v4.4.2/esp/AT24CX/examples/rpi_pico_implementation/build/elf2uf2/CMakeFiles/edit_cache.dir
-C:/Espressif/frameworks/esp-idf-v4.4.2/esp/AT24CX/examples/rpi_pico_implementation/build/elf2uf2/CMakeFiles/rebuild_cache.dir
-C:/Espressif/frameworks/esp-idf-v4.4.2/esp/AT24CX/examples/rpi_pico_implementation/build/elf2uf2/boot_uf2_headers/CMakeFiles/edit_cache.dir
-C:/Espressif/frameworks/esp-idf-v4.4.2/esp/AT24CX/examples/rpi_pico_implementation/build/elf2uf2/boot_uf2_headers/CMakeFiles/rebuild_cache.dir
