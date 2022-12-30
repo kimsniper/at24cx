@@ -90,7 +90,7 @@ at24cx_err_t at24cx_i2c_byte_write(at24cx_dev_t dev, at24cx_writedata_t dt)
 at24cx_err_t at24cx_i2c_page_write(at24cx_dev_t dev, at24cx_writedata_t dt)
 {
     at24cx_err_t err;
-    uint8_t data[130];
+    uint8_t data[dev.page_write_size + 2];
     data[0] = dt.address >> 8; 
     data[1] = dt.address & 0xFF;
 
