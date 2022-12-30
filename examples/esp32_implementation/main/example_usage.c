@@ -8,6 +8,9 @@
 #include "at24cx_i2c.h"
 #include "at24cx_i2c_hal.h"
 
+//Change this macro based on your chip size
+#define AT24CX_SIZE     256
+
 static const char *TAG = "example_usage";
 
 at24cx_dev_t eeprom_1;
@@ -19,7 +22,7 @@ void app_main(void)
     ESP_LOGI(TAG, "Initializing AT24CX. . .");
 
     //Register device
-    at24cx_i2c_device_register(&eeprom_1, 256, I2C_ADDRESS_AT24CX);
+    at24cx_i2c_device_register(&eeprom_1, AT24CX_SIZE, I2C_ADDRESS_AT24CX);
     
     //Check if eeprom_1 is active
     ESP_LOGI(TAG, "eeprom_1 is %s", eeprom_1.status ? "detected" : "not detected");
