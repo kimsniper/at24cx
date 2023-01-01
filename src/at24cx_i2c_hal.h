@@ -29,8 +29,8 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-#ifndef AT24CX_I2C_HAL
-#define AT24CX_I2C_HAL
+#ifndef MAIN_AT24CX_I2C_HAL
+#define MAIN_AT24CX_I2C_HAL
 
 #ifdef __cplusplus
 extern "C" {
@@ -45,6 +45,7 @@ typedef enum{
     AT24CX_INVALID_ADDRESS,
     AT24CX_INVALID_PAGEWRITE_ADDRESS,
 } at24cx_err_t;
+
 
 /**
  * @brief User implementation for I2C initialization.
@@ -80,4 +81,4 @@ void at24cx_i2c_hal_ms_delay(uint32_t ms);
 }
 #endif
 
-#endif /* AT24CX_I2C_HAL */
+#endif /* MAIN_AT24CX_I2C_HAL */
