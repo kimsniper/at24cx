@@ -31,107 +31,76 @@
 
 #include "at24cx_i2c_hal.h" 
 
-//Hardware Specific Components
-#include "driver/i2c.h"
+/* Hardware Specific Components */
+#include "pico/stdlib.h"
+#include "pico/binary_info.h"
+#include "hardware/i2c.h"
 
-//I2C User Defines
-#define I2C_MASTER_SCL_IO           CONFIG_I2C_MASTER_SCL      /*!< GPIO number used for I2C master clock */
-#define I2C_MASTER_SDA_IO           CONFIG_I2C_MASTER_SDA      /*!< GPIO number used for I2C master data  */
-#define I2C_MASTER_NUM              0                          /*!< I2C master i2c port number, the number of i2c peripheral interfaces available will depend on the chip */
-#define I2C_MASTER_FREQ_HZ          400000                     /*!< I2C master clock frequency */
-#define I2C_MASTER_TX_BUF_DISABLE   0                          /*!< I2C master doesn't need buffer */
-#define I2C_MASTER_RX_BUF_DISABLE   0                          /*!< I2C master doesn't need buffer */
-#define I2C_MASTER_TIMEOUT_MS       1000
 
 at24cx_err_t at24cx_i2c_hal_init()
 {
-    int err = AT24CX_OK;
+    at24cx_err_t err = AT24CX_OK;
 
-    //User implementation here
+    /* This example will use I2C0 on the default SDA and SCL pins (4, 5 on a Pico) */
+    i2c_init(i2c_default, 400 * 1000);
+    gpio_set_function(PICO_DEFAULT_I2C_SDA_PIN, GPIO_FUNC_I2C);
+    gpio_set_function(PICO_DEFAULT_I2C_SCL_PIN, GPIO_FUNC_I2C);
+    gpio_pull_up(PICO_DEFAULT_I2C_SDA_PIN);
+    gpio_pull_up(PICO_DEFAULT_I2C_SCL_PIN);
+    /* Make the I2C pins available to picotool */
+    bi_decl(bi_2pins_with_func(PICO_DEFAULT_I2C_SDA_PIN, PICO_DEFAULT_I2C_SCL_PIN, GPIO_FUNC_I2C));
 
-    int i2c_master_port = I2C_MASTER_NUM;
-
-    i2c_config_t conf = {
-        .mode = I2C_MODE_MASTER,
-        .sda_io_num = I2C_MASTER_SDA_IO,
-        .scl_io_num = I2C_MASTER_SCL_IO,
-        .sda_pullup_en = GPIO_PULLUP_ENABLE,    //Disable this if I2C lines have pull up resistor in place
-        .scl_pullup_en = GPIO_PULLUP_ENABLE,    //Disable this if I2C lines have pull up resistor in place
-        .master.clk_speed = I2C_MASTER_FREQ_HZ,
-    };
-
-    i2c_param_config(i2c_master_port, &conf);
-
-    err = i2c_driver_install(i2c_master_port, conf.mode, I2C_MASTER_RX_BUF_DISABLE, I2C_MASTER_TX_BUF_DISABLE, 0);
-
-
-    return err == AT24CX_OK ? AT24CX_OK :  AT24CX_ERR;
+    return err;
 }
 
 at24cx_err_t at24cx_i2c_hal_read(uint8_t address, uint8_t *reg, uint16_t reg_count, uint8_t *data, uint16_t data_count)
 {
-    int err = AT24CX_OK;
+    at24cx_err_t err = AT24CX_OK;
 
-    //User implementation here
-
-    i2c_cmd_handle_t cmd = i2c_cmd_link_create();
-	
-    if(reg_count)
+    if (reg_count)
     {
-        i2c_master_start(cmd);
-        i2c_master_write_byte(cmd, address << 1 | I2C_MASTER_WRITE, 1);
-	    i2c_master_write(cmd, reg, reg_count, true);
+        return AT24CX_ERR;
     }
-	
-	i2c_master_start(cmd);
-	i2c_master_write_byte(cmd, address << 1 | I2C_MASTER_READ, 1);
-	i2c_master_read(cmd, data, data_count, I2C_MASTER_LAST_NACK);
-	i2c_master_stop(cmd);
-	err = i2c_master_cmd_begin(I2C_NUM_0, cmd, I2C_MASTER_TIMEOUT_MS / portTICK_RATE_MS);
-	i2c_cmd_link_delete(cmd);
 
+    if(i2c_write_blocking(i2c_default, address, reg, reg_count, true) != reg_count)
+    {
+        return AT24CX_ERR;
+    }
+    if(i2c_read_blocking(i2c_default, address, data, data_count, false) != data_count)
+    {
+        return AT24CX_ERR;
+    }
 
-    return err == AT24CX_OK ? AT24CX_OK :  AT24CX_ERR;
+    return err;
 }
 
 at24cx_err_t at24cx_i2c_hal_write(uint8_t address, uint8_t *data, uint16_t count)
 {
-    int err = AT24CX_OK;
+    at24cx_err_t err = AT24CX_OK;
 
-    //User implementation here
+    if(i2c_write_blocking(i2c_default, address, data, count, false) != count)
+    {
+        return AT24CX_ERR;
+    }
 
-    i2c_cmd_handle_t cmd = i2c_cmd_link_create();
-    i2c_master_start(cmd);
-    i2c_master_write_byte(cmd, (address << 1) | I2C_MASTER_WRITE, 1);
-    i2c_master_write(cmd, data, count, 1);
-    i2c_master_stop(cmd);
-    err = i2c_master_cmd_begin(I2C_NUM_0, cmd, I2C_MASTER_TIMEOUT_MS / portTICK_PERIOD_MS);
-    i2c_cmd_link_delete(cmd);
-
-
-    return err == AT24CX_OK ? AT24CX_OK :  AT24CX_ERR;
+    return err;
 }
 
 at24cx_err_t at24cx_i2c_hal_test(uint8_t address)
 {
-    int err = AT24CX_OK;
+    at24cx_err_t err = AT24CX_OK;
 
-    //User implementation here
     uint8_t test_data = 1;
-
-    i2c_cmd_handle_t cmd = i2c_cmd_link_create();
-    i2c_master_start(cmd);
-    i2c_master_write_byte(cmd, (address << 1) | I2C_MASTER_WRITE, 1);
-    i2c_master_write_byte(cmd, test_data, 1);
-    i2c_master_stop(cmd);
-    err = i2c_master_cmd_begin(I2C_NUM_0, cmd, I2C_MASTER_TIMEOUT_MS / portTICK_PERIOD_MS);
-    i2c_cmd_link_delete(cmd);
+    if(i2c_write_blocking(i2c_default, address, &test_data, 1, false) == PICO_ERROR_GENERIC )
+    {
+        return AT24CX_ERR;
+    }
 
 
-    return err == AT24CX_OK ? AT24CX_OK :  AT24CX_ERR;
+    return err;
 }
 
 void at24cx_i2c_hal_ms_delay(uint32_t ms) {
-    //User implementation here
-    vTaskDelay(pdMS_TO_TICKS(ms));
+
+    sleep_ms (ms);
 }

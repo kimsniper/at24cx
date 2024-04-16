@@ -54,7 +54,7 @@ void at24cx_i2c_device_register(at24cx_dev_t *dev, uint16_t _dev_chip, uint8_t _
     if (at24cx_i2c_hal_test(dev->i2c_addres) == AT24CX_OK){
         dev->status = 1;
     }
-    printf("Device registered. Status: %s, Chip: AT24C%d, Address: 0x%02X, Size: %d\n", dev->status ? "Active" : "Inactive",
+    printf("Device registered. Status: %s, Chip: AT24C%d, Address: 0x%02X, Size: %ld\n", dev->status ? "Active" : "Inactive",
                                                            dev->dev_chip,
                                                            dev->i2c_addres,
                                                            dev->byte_size);

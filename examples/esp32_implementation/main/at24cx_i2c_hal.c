@@ -45,9 +45,7 @@
 
 at24cx_err_t at24cx_i2c_hal_init()
 {
-    int err = AT24CX_OK;
-
-    //User implementation here
+    at24cx_err_t err = AT24CX_OK;
 
     int i2c_master_port = I2C_MASTER_NUM;
 
@@ -62,17 +60,17 @@ at24cx_err_t at24cx_i2c_hal_init()
 
     i2c_param_config(i2c_master_port, &conf);
 
-    err = i2c_driver_install(i2c_master_port, conf.mode, I2C_MASTER_RX_BUF_DISABLE, I2C_MASTER_TX_BUF_DISABLE, 0);
+    if(i2c_driver_install(i2c_master_port, conf.mode, I2C_MASTER_RX_BUF_DISABLE, I2C_MASTER_TX_BUF_DISABLE, 0) == ESP_FAIL)
+    {
+        err = AT24CX_ERR;
+    }
 
-
-    return err == AT24CX_OK ? AT24CX_OK :  AT24CX_ERR;
+    return err;
 }
 
 at24cx_err_t at24cx_i2c_hal_read(uint8_t address, uint8_t *reg, uint16_t reg_count, uint8_t *data, uint16_t data_count)
 {
-    int err = AT24CX_OK;
-
-    //User implementation here
+    at24cx_err_t err = AT24CX_OK;
 
     i2c_cmd_handle_t cmd = i2c_cmd_link_create();
 	
@@ -87,36 +85,39 @@ at24cx_err_t at24cx_i2c_hal_read(uint8_t address, uint8_t *reg, uint16_t reg_cou
 	i2c_master_write_byte(cmd, address << 1 | I2C_MASTER_READ, 1);
 	i2c_master_read(cmd, data, data_count, I2C_MASTER_LAST_NACK);
 	i2c_master_stop(cmd);
-	err = i2c_master_cmd_begin(I2C_NUM_0, cmd, I2C_MASTER_TIMEOUT_MS / portTICK_RATE_MS);
+	if(i2c_master_cmd_begin(I2C_NUM_0, cmd, I2C_MASTER_TIMEOUT_MS / portTICK_PERIOD_MS) == ESP_FAIL)
+    {
+        err = AT24CX_ERR;
+    }
 	i2c_cmd_link_delete(cmd);
 
 
-    return err == AT24CX_OK ? AT24CX_OK :  AT24CX_ERR;
+    return err;
 }
 
 at24cx_err_t at24cx_i2c_hal_write(uint8_t address, uint8_t *data, uint16_t count)
 {
-    int err = AT24CX_OK;
-
-    //User implementation here
+    at24cx_err_t err = AT24CX_OK;
 
     i2c_cmd_handle_t cmd = i2c_cmd_link_create();
     i2c_master_start(cmd);
     i2c_master_write_byte(cmd, (address << 1) | I2C_MASTER_WRITE, 1);
     i2c_master_write(cmd, data, count, 1);
     i2c_master_stop(cmd);
-    err = i2c_master_cmd_begin(I2C_NUM_0, cmd, I2C_MASTER_TIMEOUT_MS / portTICK_PERIOD_MS);
+    if(i2c_master_cmd_begin(I2C_NUM_0, cmd, I2C_MASTER_TIMEOUT_MS / portTICK_PERIOD_MS) == ESP_FAIL)
+    {
+        err = AT24CX_ERR;
+    }
     i2c_cmd_link_delete(cmd);
 
 
-    return err == AT24CX_OK ? AT24CX_OK :  AT24CX_ERR;
+    return err;
 }
 
 at24cx_err_t at24cx_i2c_hal_test(uint8_t address)
 {
-    int err = AT24CX_OK;
+    at24cx_err_t err = AT24CX_OK;
 
-    //User implementation here
     uint8_t test_data = 1;
 
     i2c_cmd_handle_t cmd = i2c_cmd_link_create();
@@ -128,10 +129,10 @@ at24cx_err_t at24cx_i2c_hal_test(uint8_t address)
     i2c_cmd_link_delete(cmd);
 
 
-    return err == AT24CX_OK ? AT24CX_OK :  AT24CX_ERR;
+    return err;
 }
 
 void at24cx_i2c_hal_ms_delay(uint32_t ms) {
-    //User implementation here
+
     vTaskDelay(pdMS_TO_TICKS(ms));
 }
